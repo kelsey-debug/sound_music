@@ -26,7 +26,7 @@ print(out)
 #write to wav file
 wavio.write("clipped.wav", out, sample_rate, sampwidth=2)
 
-wav_obj = sa.WaveObject.from_wave_file("sine.wav")
+wav_obj = sa.WaveObject.from_wave_file("clipped.wav")
 playback_obj = wav_obj.play() 
 
 if playback_obj.is_playing():
