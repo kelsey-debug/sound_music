@@ -1,1 +1,1 @@
- create a sin wav 
+ create sin wave output to wav file and create clipped wav file.
